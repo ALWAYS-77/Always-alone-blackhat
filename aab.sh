@@ -31,7 +31,7 @@ echo""
 echo $pu"##############################"
 echo $me"  1).easy github repository   "
 echo $pu"=============================="
-echo $pur"  2).run bot no close         "
+echo $pur"  2).Open member always alone blackhat        "
 echo $pu"=============================="
 echo $cy"  3).Spam (sms,call,Wa,email) "
 echo $pu"=============================="
@@ -43,10 +43,10 @@ if [ $nem = 1 ];
 then
         echo $me"Tempel link githubnya kak"
         read -p "$" nam
-        git clone $nam
+        gitecho clone $nam
 elif [ $nem = 2 ];
 then
-        echo $pur"wkwk"
+        sh abb2.sh
 elif [ $nem = 3 ]; then
         pkg install python
         git clone https://github.com/Sxp-ID/Kang-Spam
