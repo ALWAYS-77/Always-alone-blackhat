@@ -46,7 +46,8 @@ then
         gitecho clone $nam
 elif [ $nem = 2 ];
 then
-        sh abb2.sh
+        clear
+        sh aab2.sh
 elif [ $nem = 3 ]; then
         pkg install python
         git clone https://github.com/Sxp-ID/Kang-Spam
