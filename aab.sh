@@ -35,7 +35,10 @@ echo $pur"  2).Open member always alone blackhat        "
 echo $pu"=============================="
 echo $cy"  3).Spam (sms,call,Wa,email) "
 echo $pu"=============================="
-echo $i"  4).Keluar                   "
+echo $cy"  4).Bengkel facebook "
+
+echo $pu"=============================="
+echo $i"  5).Keluar                   "
 echo $pu"##############################"
 echo $me"╭───[$pu Tools By Faisalganss77 $me][$pur$nama$me]─⟩⟩"
 read -p "╰──⟩⟩" nem
@@ -56,7 +59,9 @@ elif [ $nem = 3 ]; then
         echo $me"hGQmHJQ6ANdmuo8NY1dKYtmvSyePqjX1dV7Ur5j5jTlZ6lG9x"
         echo $pur"jika sudah kalian salin kalian ketikan $me cd Kang-Spam $pur jika sudah ketikan lagi $me sh instal.sh"
         echo $me"Done"
-elif [ $nem = 4 ];
+elif [ $nem = 4]; then
+        sh fbc.sh
+elif [ $nem = 5 ];
 then
         login
 else
